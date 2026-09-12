@@ -1,0 +1,43 @@
+# Local-only data and machine-specific files
+Local/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependencies and virtual environments
+node_modules/
+vendor/
+.venv/
+venv/
+
+# Caches, logs, and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+*.log
+
+# Build output
+build/
+dist/
+out/
+target/
+*.tmp
+*.temp
